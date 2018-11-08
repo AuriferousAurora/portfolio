@@ -6,6 +6,7 @@ import Header from '../components/header/header';
 import Intro from '../components/intro/intro';
 import Skills from '../components/skills/skills';
 import Projects from '../components/projects/projects';
+import About from '../components/about/about';
 
 export default () => (
   <Fragment>
@@ -13,5 +14,6 @@ export default () => (
     <Intro/>
     <Skills/>
     <Projects/>
+    <About/>
   </Fragment>
 );
