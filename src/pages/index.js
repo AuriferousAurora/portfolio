@@ -7,6 +7,7 @@ import Intro from '../components/intro/intro';
 import Skills from '../components/skills/skills';
 import Projects from '../components/projects/projects';
 import About from '../components/about/about';
+import Footer from '../components/footer/footer';
 
 export default () => (
   <Fragment>
@@ -15,5 +16,6 @@ export default () => (
     <Skills/>
     <Projects/>
     <About/>
+    <Footer/>
   </Fragment>
 );
