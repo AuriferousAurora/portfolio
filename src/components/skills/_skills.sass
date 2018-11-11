@@ -1,17 +1,48 @@
 .skills
   display: flex
-  justify-content: space-between
+  flex-direction: column
+  background: $black
+  font-family: $font
+
+.skills__title-card
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 2.5em 0 1.5em 0
+  width: 100%
+  height: 3em
+  .title-card__text
+    color: white
+    font-size: 2em
+
+.skills__content
+  display: flex
+  justify-content: space-around
   align-items: start
   flex-wrap: wrap
   padding: 0 2em
   width: 100%
   height: auto
-  background: $black
+
   
 .skills__icon
   padding: 1em 0
   width: 45%
   height: auto
+  max-width: 10em
 
 .skills__icon--react
   fill: #00D8FF
+
+.skills__link-container
+  display: flex
+  justify-content: center
+  align-items: start
+  padding-bottom: 1em
+  height: auto
+
+.link__skills
+  padding: 0.7em
+  background: $white
+  color: $black
+  font-size: 1.5em

@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Component, Fragment } from 'react';
 
 import './index.sass';
 
@@ -9,13 +9,17 @@ import Projects from '../components/projects/projects';
 import About from '../components/about/about';
 import Footer from '../components/footer/footer';
 
-export default () => (
-  <Fragment>
-    <Header/>
-    <Intro/>
-    <Skills/>
-    <Projects/>
-    <About/>
-    <Footer/>
-  </Fragment>
-);
+export default class Application extends Component {
+  render() {
+    return (
+      <Fragment>
+        <Header/>
+        <Intro/>
+        <Skills/>
+        <Projects/>
+        <About/>
+        <Footer/>
+      </Fragment>
+    );
+  }
+};
