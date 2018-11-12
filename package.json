@@ -4,12 +4,14 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
+    "deploy": "aws s3 sync public s3://kyleeverettlang.com --acl public-read --delete",
     "start": "npm run develop",
     "build": "gatsby build",
     "serve": "gatsby serve"
   },
   "dependencies": {
     "gatsby": "^2.0.33",
+    "gatsby-plugin-catch-links": "^2.0.8",
     "gatsby-plugin-sass": "^2.0.3",
     "node-sass": "^4.10.0",
     "react": "^16.5.1",
