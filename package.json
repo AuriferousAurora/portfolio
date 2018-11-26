@@ -4,7 +4,6 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "deploy": "aws s3 sync public s3://kyleeverettlang.com --acl public-read --delete",
     "start": "npm run develop",
     "build": "gatsby build",
     "serve": "gatsby serve"
