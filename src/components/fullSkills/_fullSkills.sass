@@ -18,13 +18,18 @@
       font-weight: bold
   .technologies 
     display: flex
-    justify-content: space-around
+    justify-content: space-evenly
     align-items: start
     flex-wrap: wrap
     padding: 0 2em
     width: 100%
     height: auto
     background: $black
+  .technologies > *
+    @media (min-width: 1100px)
+      margin: 3em
+
+      
 
 .link__full-skills
   padding: 0.5em
