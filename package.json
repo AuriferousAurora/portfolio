@@ -3,6 +3,7 @@
   "description": "Gatsby hello world starter",
   "license": "MIT",
   "scripts": {
+    "deploy": "aws s3 sync public s3://kyleeverettlang.com --acl public-read --delete",
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build",
