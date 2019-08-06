@@ -22,10 +22,14 @@ export const Header = class Header extends Component {
   render() {
     return (
       <div className={'header ' + this.state.background}>
-        <div className='header__left_wrapper'>
-          <div className='header__name'>Kyle Everett Lang</div>
-          <div className='header__separator'>|</div>
-          <div className='header__title'>Web Developer</div>
+        <div className='header__left-wrapper'>
+          <div className='header__name-wrapper'>
+            <span className='header__name'>Kyle Everett Lang</span>
+          </div>
+          <span className='header__separator'></span>
+          <div className='header__title-wrapper'>
+            <span className='header__title'>Web Developer</span>
+          </div>
         </div>
         <div className='header__email'>
           <a href='mailto:kyle.everett.lang@gmail.com'>kyle.everett.lang@gmail.com</a>
