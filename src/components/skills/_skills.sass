@@ -12,19 +12,34 @@
     width: 100%
     height: auto
     .skills__icon-wrapper
+      display: flex
+      justify-content: center
       width: 45%
     .skills__text-wrapper
       width: 55%
 
 .skills__icon
-  fill: rgb(255, 225, 51)
   height: auto
-  margin: 1em
+  margin: 0 2em
   max-width: 10em
+  min-width: 7em
   padding: 1em 0
   width: 40%
 
+.skills__icon--django, .skills__icon--python
+  fill: #44B78B
+
+.skills__icon--react, .skills__icon--javascript
+  fill: #F0DB4F
+
+.skills__icon--html, .skills__icon--css
+  fill: #FFA500
+
+.skills__icon--git, .skills__icon--postgresql
+  fill: #68A7CA
+
 .text-wrapper__title
+  border-radius: 0.1em
   color: $black
   padding: 0.7em
   max-width: 45%
@@ -39,20 +54,4 @@
   background: #FFA500
 
 .title--git-postgresql
-  background: rgb(43, 86, 121)
-
-
-
-
-// .skills__link-container
-//   display: flex
-//   justify-content: center
-//   align-items: start
-//   padding-bottom: 1em
-//   height: auto
-
-// .link__skills
-//   padding: 0.7em
-//   background: $white
-//   color: $black
-//   font-size: 1.5em
+  background: #68A7CA
