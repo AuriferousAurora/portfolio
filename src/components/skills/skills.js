@@ -102,7 +102,3 @@ export default () => (
 
   </div>
 )
-
-    {/* <div className='skills__link-container'>
-      <Link className='link link__skills' to='/skills'>All Skills</Link>
-    </div> */}
