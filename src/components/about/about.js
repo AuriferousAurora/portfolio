@@ -1,5 +1,5 @@
 import React from 'react';
-import Headshot from './headshot.jpg';
+import Headshot from './media/headshot.jpg';
 
 export default () => (
   <div className='about'>
