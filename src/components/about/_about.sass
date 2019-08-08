@@ -3,16 +3,35 @@
   background: $gray_medium
   box-shadow: 0 0.1em 0.1em 0.2em $box_shadow_color inset
   display: flex
-  flex-direction: column
+  justify-content: center
   font-family: $font
   padding: 2em
   width: 100%
+  @include respond_to(medium_screen)
+    flex-direction: column
   .about__headshot
-    width: 90%
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
     max-width: 20em
-  .about__text
-    margin: 1em
+    margin: 1.5em
     width: 90%
+    @include respond_to(medium_screen)
+      max-width: 18em
+  .about__text-wrapper
+    background: $gray_dark
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+    border-radius: $radius
     color: $white
+    margin: 1.5em
+    padding: 0.7em 1em
+    padding-bottom: 0.2em
+    width: 55%
     text-align: justify
-
+    @include respond_to(medium_screen)
+      width: 80%
+    .about__title
+      background: $white
+      border-radius: $radius
+      color: $black
+      max-width: 45%
+      padding: 0.7em
+      text-align: center
