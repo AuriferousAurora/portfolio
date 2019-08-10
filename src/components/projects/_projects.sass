@@ -18,18 +18,21 @@
     @include respond_to(medium_screen)
       width: 80%
     .projects__title
-      background: $white
+      background: black
       border-radius: 0.1em
-      color: black
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+      color: white
       padding: 0.5em 2em
       text-align: center
     .projects__description
-      color: $white
+      color: black
       margin: 1em 2em
+      padding: 0.7em
   .projects__content-wrapper
+    background: $gray_medium
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12) inset, 0 1px 2px rgba(0,0,0,0.24) inset
     display: flex
     justify-content: flex-start
-    margin-left: 0
     overflow-x: auto
     scrollbar-width: none
     white-space: nowrap
@@ -37,19 +40,22 @@
     @include respond_to(medium_screen)
       width: 80%
     .project
-      display: flex
       align-items: center
+      display: flex
+      justify-content: center
       margin: 1em
-      padding: 1em
       min-width: 18em
       height: 13em
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+      padding: 1em
       text-decoration: none
       .project-title
         color: $white
-        font-size: 3em
+        font-size: 2em
         font-weight: bold
-        text-align: center
+    .project__spacing-element
+      margin: 1em
+      height: 13em
     .project--tdc-fashion
       background-image: url('/media/blue_purple_abstract.png')
     .project--stock-club
@@ -58,4 +64,6 @@
       background: url('/media/green_orange_abstract.png')
     .project--remind-pro
       background: url('/media/blue_red_abstract.png')
+    .project__spacing-element--last
+      padding: 2em
     
