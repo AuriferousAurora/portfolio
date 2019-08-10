@@ -3,7 +3,10 @@ module.exports = {
              'gatsby-plugin-catch-links',
             {
               resolve: 'gatsby-plugin-s3',
-              options: { bucketName: 'kyleeverettlang.com' }
+              options: { bucketName: 'kyleeverettlang.com',
+                         protocol: 'https',
+                         hostname: 'kyleeverettlang.com'
+                         }
             }
           ]
 }
