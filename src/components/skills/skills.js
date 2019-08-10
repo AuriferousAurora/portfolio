@@ -20,10 +20,10 @@ export default () => (
       <div className='skills__text-wrapper'>
         <div className='text-wrapper__title title--django-python'>Django and Python</div>
         <p>
-          My most recent and robust technological assets include Python and Django as web-framework. I have experience in writing, maintaining, and debugging features for production-scale web-applications. In addition, I also wrote and documented code for integration with the USPS Address Verification API and the JIRA Server API.
+          My most recent and robust technological assets include Python and Django. I have experience in writing, maintaining, and debugging features for production-scale web-applications. In addition, I wrote and documented code for integration with the USPS Address Verification API and the JIRA Server API.
         </p>
         <p>
-          The majority of my day-to-day tasks invovled debugging and unit-testing. In my previous position, I wrote and maintained a Selenium testing suite for several sections of the Django application I was assigned to.
+          The majority of my day-to-day tasks invovled debugging and unit-testing. I also wrote and maintained a Selenium testing suite for several sections of the Django application I was assigned to.
         </p>
       </div>
     </div>
@@ -44,7 +44,7 @@ export default () => (
       <div className='skills__text-wrapper'>
         <div className='text-wrapper__title title--react-javascript'>React and JavaScript</div>
         <p>
-          I was originally trained in JavaScript, with my first back-end work written in Node. React is the framework that I most enjoy and am most familiar with, though I also desire to broaden my front-end skillset. My previous work in React includes the design and creation several prototypes of a front-end web-application for a business-to-business fashion-on-demand startup.
+          I was originally trained in JavaScript, with my first back-end work written in Node. React is the framework that I most enjoy and am most familiar with, though I also desire to broaden my front-end skillset. My previous work in React includes the design and creation of several front-end web-application prototypes for a business-to-business fashion-on-demand startup.
         </p>
         <p>
           Despite the general discontent that many developers express for the language, I am just as comfortable working with JavaScript as I am with Python. The idiosyncracies presented in the language provide a welcome challenge and I look forward to seeing it grow and evolve.
@@ -68,7 +68,7 @@ export default () => (
       <div className='skills__text-wrapper'>
         <div className='text-wrapper__title title--html-css'>HTML and CSS</div>
         <p>
-          As the skin and bones of the web, many developers make the mistake of overlooking what are the fundamental building blocks of any web page. My first steps into web-development involved basic HTML and CSS desing and I grew to appreciate the depth and design inherent in both languages.
+          As the skin and bones of the web, many developers make the mistake of overlooking what are the fundamental building blocks of any web page. My first steps into web-development involved basic HTML and CSS websites and I grew to appreciate the depth of design inherent in both languages.
         </p>
         <p>
           Most of my experience in front-end development involves custom CSS designs primarily using flex-box, though I am eager to learn CSS Grid and have made some use of Bootstrap and other CSS libraries. I prefer working with Sass when possible due to the simplification it provides to what otherwise might be an unwieldy collection of CSS files.
@@ -93,10 +93,10 @@ export default () => (
         <div className='text-wrapper__title title--git-postgresql'>Git and PostgreSQL</div>
         <p>
           Two of the most powerfule technologies in my skillset, Git and PostgreSQL are my versioning control system and database language of choice.
-          With regard to Git, the power and speed leveraged from my knowledge of Git allows me to work quicker and better. Any chance I have to read a page of Git documentation is another chunk of time I am able to save myself in the future.
+          With regard to Git, the power leveraged from my knowledge of Git allows me to work quicker and better. Any chance I have to read a page of Git documentation is another chunk of time I am able to save myself and my team in the future.
         </p>
         <p>
-          Being both first and most extensive database language I've worked with gives PostgrSQL it's place in my toolbelt, but I am eager to learn more about the Serialized Query Language in general, as it seems an invaluable tool.
+          Being both my first and most extensively utilized database language gives PostgreSQL it's place in my toolbelt, but I am eager to learn more about SQL in general, as it seems an invaluable tool.
         </p>
       </div>
     </div>
