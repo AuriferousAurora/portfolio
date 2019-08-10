@@ -7,10 +7,10 @@ export default () => (
     <div className='about__text-wrapper'>
         <div className='about__title'>About Me</div>
         <p>
-           While I probably don't need to further advertize my name if you've made it this far down the page, I do need to advertize my passion for learning web development. I like writing clean, efficient code, designing and creating web technology, and working with others who share those interests.
+          My passion for web-development, my ability to both teach myself and learn well from others, and my strong communication skills make me a valuable asset to any team. My 'want-to-learn' subjects include machine-learning, data analysis, statistics, and many others. As such, any projects I take up outside of work will only render me a more valuable asset to any team I am made part of.
         </p>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, illum possimus? A distinctio sapiente, voluptatum ipsum assumenda recusandae. Natus sit ipsum harum omnis labore earum quam. Aperiam quibusdam rerum aspernatur?
+          Outside of work, I enjoy socializing, learning, movies, rock-climbing, exercising, coffee and many more. I enjoy coffee inside of work as well. 
         </p>
       </div>
   </div>
