@@ -15,8 +15,12 @@
     justify-content: space-around
     height: 100%
     width: 45%
+    @include respond_to(large_screen)
+      width: 50%
     @include respond_to(medium_screen)
       width: 80%
+    @include respond_to(small_screen)
+      width: 100%
     .projects__title
       background: black
       border-radius: 0.1em
@@ -37,15 +41,18 @@
     scrollbar-width: none
     white-space: nowrap
     width: 80%
+    @include respond_to(large_screen)
+      width: 50%
     @include respond_to(medium_screen)
-      width: 80%
+      width: 90%
+    @include respond_to(small_screen)
+      width: 100%
     .project
       align-items: center
       display: flex
       justify-content: center
       margin: 1em
       min-width: 18em
-      height: 13em
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
       padding: 1em
       text-decoration: none

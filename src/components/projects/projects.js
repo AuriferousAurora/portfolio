@@ -4,7 +4,7 @@ export default () => (
   <div className='projects'>
     <div className='projects__info-wrapper'>
       <div className='projects__title'>
-        <span>Project Name</span>
+        <span>Projects</span>
         
       </div>
       <div className='projects__description'>

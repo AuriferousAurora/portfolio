@@ -10,7 +10,7 @@ export default () => (
           My passion for web-development, my ability to both teach myself and learn well from others, and my strong communication skills make me a valuable asset to any team. My 'want-to-learn' subjects include machine-learning, data analysis, statistics, and many others. As such, any projects I take up outside of work will only render me a more valuable asset to any team I am made part of.
         </p>
         <p>
-          Outside of work, I enjoy socializing, learning, movies, rock-climbing, exercising, coffee and much more. I enjoy coffee inside of work as well. 
+          Outside of work, I enjoy spending time with friends, learning, movies, rock-climbing, exercising, coffee and much more. I enjoy coffee inside of work as well. 
         </p>
       </div>
   </div>

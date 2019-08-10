@@ -1,6 +1,12 @@
 // Media Query Mix-In //
 
 @mixin respond_to($screen_size)
+  @if $screen_size == large_screen
+    @media screen and (max-width: $break_large)
+      @content
   @if $screen_size == medium_screen
     @media screen and (max-width: $break_medium)
+      @content
+  @if $screen_size == small_screen
+    @media screen and (max-width: $break_small)
       @content
