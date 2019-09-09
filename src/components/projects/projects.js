@@ -8,7 +8,7 @@ export default () => (
         
       </div>
       <div className='projects__description'>
-        The majority of my work is proprietary, as two of my three of my previous projects are inacessible to the public. The front-end React prototpyes I mentioned above are included as one of the cards in this section. The login page of OSHA Card Portal-- the application that recieved the bulk of my attention --can be found <a href='https://www.oshacardportal.com' style={{'text-decoration': 'none'}} target='_blank' rel='noopener noreferrer'>here</a>. The third project I was invovled with was a internal content development tool, also written in Django, that my coworker developed. My other, smaller projects, can be accessed by selecting any of the cards.
+        The majority of my work is proprietary, as two of my three previous projects are inacessible to the public. The front-end React prototypes I mentioned above are included as one of the cards in this section. The login page of OSHA Card Portal-- the application that recieved the bulk of my attention --can be found <a href='https://www.oshacardportal.com' style={{'text-decoration': 'none'}} target='_blank' rel='noopener noreferrer'>here</a>. The third project I was involved with was an internal content development tool, also written in Django, that my coworker developed. My other, smaller projects, can be accessed by selecting any of the cards.
       </div>
     </div>
     <div className='projects__content-wrapper'>

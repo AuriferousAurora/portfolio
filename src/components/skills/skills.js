@@ -23,7 +23,7 @@ export default () => (
           My most recent and robust technological assets include Python and Django. I have experience in writing, maintaining, and debugging features for production-scale web-applications. In addition, I wrote and documented code for integration with the USPS Address Verification API and the JIRA Server API.
         </p>
         <p>
-          The majority of my day-to-day tasks invovled debugging and unit-testing. I also wrote and maintained a Selenium testing suite for the appliction's primary functionality.
+          The majority of my day-to-day tasks involved debugging and unit-testing. I also wrote and maintained a Selenium testing suite for the appliction's primary functionality.
         </p>
       </div>
     </div>
