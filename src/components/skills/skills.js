@@ -52,6 +52,30 @@ export default () => (
       </div>
     </div>
 
+    {/* C and C-Sharp Section */}
+
+    <div className='skills__content-wrapper content-wrapper--c-csharp'>
+
+      <div className='skills__icon-wrapper'>
+        <svg className='skills__icon skills__icon--c' viewBox="0 0 128 128">
+          <path d="M117.5 33.5l.3-.2c-.6-1.1-1.5-2.1-2.4-2.6l-48.3-27.8c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.3.9 3.4l-.2.1c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4v-55.8c.1-.8 0-1.7-.4-2.6zm-53.5 55c9.1 0 17.1-5 21.3-12.4l12.9 7.6c-6.8 11.8-19.6 19.8-34.2 19.8-21.8 0-39.5-17.7-39.5-39.5s17.7-39.5 39.5-39.5c14.7 0 27.5 8.1 34.3 20l-13 7.5c-4.2-7.5-12.2-12.5-21.3-12.5-13.5 0-24.5 11-24.5 24.5s11 24.5 24.5 24.5z"></path>
+        </svg> 
+        <svg className='skills__icon skills__icon--csharp'viewBox="0 0 128 128">
+          <path d="M117.5 33.5l.3-.2c-.6-1.1-1.5-2.1-2.4-2.6l-48.3-27.8c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.3.9 3.4l-.2.1c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4v-55.8c.1-.8 0-1.7-.4-2.6zm-53.5 70c-21.8 0-39.5-17.7-39.5-39.5s17.7-39.5 39.5-39.5c14.7 0 27.5 8.1 34.3 20l-13 7.5c-4.2-7.5-12.2-12.5-21.3-12.5-13.5 0-24.5 11-24.5 24.5s11 24.5 24.5 24.5c9.1 0 17.1-5 21.3-12.4l12.9 7.6c-6.8 11.8-19.6 19.8-34.2 19.8zm51-41.5h-3.2l-.9 4h4.1v5h-5l-1.2 6h-4.9l1.2-6h-3.8l-1.2 6h-4.8l1.2-6h-2.5v-5h3.5l.9-4h-4.4v-5h5.3l1.2-6h4.9l-1.2 6h3.8l1.2-6h4.8l-1.2 6h2.2v5zM102.3 66h3.8l.9-4h-3.8z"></path>
+        </svg> 
+      </div>
+
+      <div className='skills__text-wrapper'>
+        <div className='text-wrapper__title title--c-csharp'>C and C#</div>
+        <p>
+          In the interest of expanding my repertoire of technologies and my general marketability, I began to practice programming in C and its variants. Writing C has helped to build a firmer understanding of the underlying programmatic processes and practices that other languages abstract away.
+        </p>
+        <p>
+          A more strongly typed and explicity object-oriented language than any other I've used, C# allows me to leverage the power of C without the need to fully understand all of the nuance the language entails, while providing solutions to certain problems that Python handles less gracefully.
+        </p>
+      </div>
+    </div>
+
     {/* HTML and CSS Section */}
 
     <div className='skills__content-wrapper content-wrapper--react-javascript'>
@@ -71,7 +95,7 @@ export default () => (
           As the skin and bones of the web, many developers make the mistake of overlooking what are the fundamental building blocks of any web page. My first steps into web-development involved basic HTML and CSS websites and I grew to appreciate the depth of design inherent in both technologies.
         </p>
         <p>
-          Most of my experience in front-end development involves custom CSS designs primarily using flex-box, though I am eager to learn CSS Grid and have made some use of Bootstrap and other CSS libraries. I prefer working with Sass when possible due to the simplification it provides to what otherwise might be an unwieldy collection of CSS files.
+          Most of my experience in front-end development involves custom CSS designs primarily using flex-box and CSS grid, though I have made some use of Bootstrap and other CSS libraries. I prefer working with Sass when possible due to the simplification it provides to what otherwise might be an unwieldy collection of CSS files.
         </p>
       </div>
     </div>
