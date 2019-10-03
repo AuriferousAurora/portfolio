@@ -52,26 +52,26 @@ export default () => (
       </div>
     </div>
 
-    {/* C and C-Sharp Section */}
+    {/* C-Sharp and .NET Section */}
 
     <div className='skills__content-wrapper content-wrapper--c-csharp'>
 
       <div className='skills__icon-wrapper'>
-        <svg className='skills__icon skills__icon--c' viewBox="0 0 128 128">
-          <path d="M117.5 33.5l.3-.2c-.6-1.1-1.5-2.1-2.4-2.6l-48.3-27.8c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.3.9 3.4l-.2.1c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4v-55.8c.1-.8 0-1.7-.4-2.6zm-53.5 55c9.1 0 17.1-5 21.3-12.4l12.9 7.6c-6.8 11.8-19.6 19.8-34.2 19.8-21.8 0-39.5-17.7-39.5-39.5s17.7-39.5 39.5-39.5c14.7 0 27.5 8.1 34.3 20l-13 7.5c-4.2-7.5-12.2-12.5-21.3-12.5-13.5 0-24.5 11-24.5 24.5s11 24.5 24.5 24.5z"></path>
-        </svg> 
-        <svg className='skills__icon skills__icon--csharp'viewBox="0 0 128 128">
+        <svg className='skills__icon skills__icon--csharp' viewBox="0 0 128 128">
           <path d="M117.5 33.5l.3-.2c-.6-1.1-1.5-2.1-2.4-2.6l-48.3-27.8c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.3.9 3.4l-.2.1c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7 1.2 0 2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4v-55.8c.1-.8 0-1.7-.4-2.6zm-53.5 70c-21.8 0-39.5-17.7-39.5-39.5s17.7-39.5 39.5-39.5c14.7 0 27.5 8.1 34.3 20l-13 7.5c-4.2-7.5-12.2-12.5-21.3-12.5-13.5 0-24.5 11-24.5 24.5s11 24.5 24.5 24.5c9.1 0 17.1-5 21.3-12.4l12.9 7.6c-6.8 11.8-19.6 19.8-34.2 19.8zm51-41.5h-3.2l-.9 4h4.1v5h-5l-1.2 6h-4.9l1.2-6h-3.8l-1.2 6h-4.8l1.2-6h-2.5v-5h3.5l.9-4h-4.4v-5h5.3l1.2-6h4.9l-1.2 6h3.8l1.2-6h4.8l-1.2 6h2.2v5zM102.3 66h3.8l.9-4h-3.8z"></path>
+        </svg>
+        <svg className='skills__icon skills__icon--dotnet'viewBox="0 0 128 128">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M82.108 78.432c.479-1.232 1.022-2.445 1.427-3.701 2.288-7.097 4.554-14.2 6.805-21.309.865-2.731 1.813-5.42 3.515-7.767 2.692-3.709 6.442-5.652 10.88-6.331 1.741-.266 3.518-.389 5.28-.406 5.267-.05 10.536-.015 15.804-.01.28 0 .56.029.957.052-.129.304-.199.525-.311.724-1.955 3.494-3.872 7.009-5.885 10.468-3.505 6.022-7.016 12.042-10.631 17.998-2.319 3.819-4.834 7.52-7.687 10.974-2.105 2.548-4.321 4.984-7.146 6.77-1.925 1.217-3.981 1.929-6.315 1.917-8.278-.045-16.556-.012-24.834-.024-2.461-.004-4.568-.941-6.356-2.603-2.563-2.381-4.093-5.412-5.345-8.608-2.284-5.835-3.563-11.951-5.031-18.014-.688-2.838-1.47-5.654-2.215-8.478-.048-.183-.142-.354-.25-.617l-.577.542c-3.228 3.207-6.071 6.741-8.615 10.498-.693 1.024-.926 2.374-1.313 3.591-1.424 4.47-2.722 8.983-4.264 13.411-1.477 4.242-4.125 7.616-8.264 9.61-2.42 1.165-5.004 1.795-7.689 1.855-3.98.088-7.962.098-11.943.134-.952.009-.996-.069-.748-.99 1.707-6.338 3.87-12.514 6.58-18.492 2.794-6.167 6.085-12.048 10.231-17.419 2.823-3.657 5.941-7.031 9.843-9.582 1.979-1.293 4.083-2.315 6.477-2.584.394-.045.793-.073 1.189-.073 8.478-.004 16.956.082 25.433-.039 4.547-.065 7.839 1.855 10.304 5.515 1.533 2.276 2.63 4.761 3.553 7.328 1.861 5.178 3.018 10.547 4.325 15.878.748 3.051 1.581 6.081 2.379 9.12.06.228.157.446.238.668l.199-.006z"></path>
         </svg> 
       </div>
 
       <div className='skills__text-wrapper'>
-        <div className='text-wrapper__title title--c-csharp'>C and C#</div>
+        <div className='text-wrapper__title title--csharp-dotnet'>C# and .NET</div>
         <p>
-          In the interest of expanding my repertoire of technologies and my general marketability, I began to practice programming in C and its variants. Writing C has helped to build a firmer understanding of the underlying programmatic processes and practices that other languages abstract away.
+          In the interest of expanding my repertoire of technologies and my general marketability, I began to practice programming in C and its variants. Writing C has helped to build a firmer understanding of the underlying programmatic processes and practices that other languages abstract away. A more strongly typed and explicity object-oriented language than any other I've used, C# allows me to leverage the power of C without the need to fully understand all of the nuance the language entails, while providing solutions to certain problems that Python handles less gracefully.
         </p>
         <p>
-          A more strongly typed and explicity object-oriented language than any other I've used, C# allows me to leverage the power of C without the need to fully understand all of the nuance the language entails, while providing solutions to certain problems that Python handles less gracefully.
+          .NET seems to be the framework of choice for C#, and it's easy to see why. In the same way that Django makes building websites clean and quick in Python, .NET brings a lot of helpful functionality for web design in C#.
         </p>
       </div>
     </div>
