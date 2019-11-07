@@ -13,8 +13,8 @@ export default () => (
     </div>
     <div className='projects__content-wrapper'>
       <div className='project__spacing-element'></div>
-      <a href='https://github.com/AuriferousAurora/TDC-Fashion' target='_blank' rel='noopener noreferrer' className='project project--tdc-fashion'>
-        <span className='project-title'>TDC Fashion</span>
+      <a href='https://metric-display.herokuapp.com/' target='_blank' rel='noopener noreferrer' className='project project--metric-display'>
+        <span className='project-title'>Metric Display</span>
       </a>
       <a href='https://github.com/AuriferousAurora/StockClub' target='_blank' rel='noopener noreferrer' className='project project--stock-club'>
         <span className='project-title'>Stock Club</span>
