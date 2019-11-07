@@ -1,26 +1,20 @@
 .projects
   background: $gray_dark
   display: flex
+  flex-direction: column
   font-family: $font
   overflow: hidden
   width: 100%
-  padding: 1.5em 0
-  @include respond_to(medium_screen)
-    align-items: center
-    flex-direction: column
-  .projects__info-wrapper
+  // padding: 1.5em 0
+  // @include respond_to(medium_screen)
+  //   align-items: center
+  //   flex-direction: column
+  .projects__header
     align-items: center
     display: flex
-    flex-direction: column
     justify-content: space-around
-    height: 100%
-    width: 45%
-    @include respond_to(large_screen)
-      width: 50%
-    @include respond_to(medium_screen)
-      width: 80%
-    @include respond_to(small_screen)
-      width: 100%
+    height: 4em
+    width: 100%
     .projects__title
       background: black
       border-radius: 0.1em
@@ -28,10 +22,20 @@
       color: white
       padding: 0.5em 2em
       text-align: center
-    .projects__description
-      color: black
-      margin: 1em 2em
-      padding: 0.7em
+
+
+  .projects__footer
+    align-items: center
+    display: flex
+    justify-content: space-around
+    height: 4em
+    width: 100%
+    // @include respond_to(large_screen)
+    //   width: 50%
+    // @include respond_to(medium_screen)
+    //   width: 80%
+    // @include respond_to(small_screen)
+    //   width: 100%
   .projects__content-wrapper
     background: $gray_medium
     box-shadow: 0 1px 3px rgba(0,0,0,0.12) inset, 0 1px 2px rgba(0,0,0,0.24) inset
@@ -40,29 +44,37 @@
     overflow-x: auto
     scrollbar-width: none
     white-space: nowrap
-    width: 80%
-    @include respond_to(large_screen)
-      width: 50%
-    @include respond_to(medium_screen)
-      width: 90%
-    @include respond_to(small_screen)
-      width: 100%
-    .project
+    width: 100%
+    // @include respond_to(large_screen)
+    //   width: 50%
+    // @include respond_to(medium_screen)
+    //   width: 90%
+    // @include respond_to(small_screen)
+    //   width: 100%
+    .project-card
       align-items: center
       display: flex
+      flex-direction: column
+      height: 20em
       justify-content: center
       margin: 1em
       min-width: 18em
       box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
-      padding: 1em
       text-decoration: none
-      .project-title
+      .project-card__project-title
+        width: 100%
+        height: 50%
         color: $white
+        background: blue
         font-size: 2em
-        font-weight: bold
-    .project__spacing-element
-      margin: 1em
-      height: 13em
+      .project-card__project-links
+        width: 100%
+        height: 10%
+        background: red
+      .project-card__project-short-summary
+        width: 100%
+        height: 40%
+        background: yellow
     .project--metric-display
       background-image: url('/media/blue_purple_abstract.png')
     .project--stock-club
@@ -71,6 +83,5 @@
       background: url('/media/green_orange_abstract.png')
     .project--remind-pro
       background: url('/media/blue_red_abstract.png')
-    .project__spacing-element--last
-      padding: 2em
+
     
